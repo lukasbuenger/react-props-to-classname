@@ -21,6 +21,7 @@ const App = () => {
 	})
 	return (
 		<>
+
 		
 			<TextColor variant="bar" as="h1" ref={headerRef}>
 				Foobarz
