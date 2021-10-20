@@ -21,7 +21,7 @@ const App = () => {
 	})
 	return (
 		<>
-			<TextColor variant="red" as="h1" ref={headerRef}>
+			<TextColor variant="bar" as="h1" ref={headerRef}>
 				Foobar
 			</TextColor>
 			<p>
