@@ -37,3 +37,7 @@ yarn-error.log*
 .eslintcache
 
 .env
+
+/cjs*
+/esm*
+*.tgz

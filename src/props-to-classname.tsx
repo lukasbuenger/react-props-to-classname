@@ -1,4 +1,4 @@
-import React, {
+import {
 	Children,
 	cloneElement,
 	createElement,
@@ -29,7 +29,7 @@ function removeKeys<T, K extends keyof T>(
 
 interface ClassNamifiedElementProps<
 	TElement extends keyof ReactHTML,
-> extends HTMLProps<ReactHTML[TElement]> {
+> extends HTMLProps<ReactHTML[TElement]>{
 	/** Customise the DOM element with which this component is supposed to get rendered. */
 	as?: TElement
 	/**

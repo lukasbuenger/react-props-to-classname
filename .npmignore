@@ -1,0 +1,7 @@
+src/*
+docs/*
+.vscode/*
+.nvmrc
+.prettierrc
+.eslintrc
+tsconfig.json
