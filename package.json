@@ -8,9 +8,7 @@
 		"npm": ">=8"
 	},
 	"scripts": {
-		"prepack": "npm run format && npm run lint && npm run build",
-		"lint": "eslint",
-		"format": "prettier --write src/*",
+		"prepack": "npm run build",
 		"build-cjs": "tsc --noEmit false --outDir ./cjs",
 		"build-esm": "tsc --noEmit false --module esnext --outDir ./esm",
 		"build": "npm run build-cjs && npm run build-esm",
